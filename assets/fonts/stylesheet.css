@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Star Jedi Hollow';
+    src: url('StarJediHollow.eot');
+    src: url('StarJediHollow.eot?#iefix') format('embedded-opentype'),
+        url('StarJediHollow.woff2') format('woff2'),
+        url('StarJediHollow.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

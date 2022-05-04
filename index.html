@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <title>Programación en español</title>
+  </head>
+  <body>
+    <main>
+      <section class="main-title">
+        <h1>May the 4th be with you</h1>
+        <h2>
+          ¡Que las buenas prácticas te acompañen y que tengas muy buen código!
+        </h2>
+      </section>
+      <section class="sides-of-the-force">
+        <div class="container">
+          <div class="lightsaber-container">
+            <div id="light-jedi" class="light jedi close-lightsaber"></div>
+            <div class="saber">
+              <div class="saber-section-1"></div>
+              <div class="saber-btn-container">
+                <button
+                  onclick="openLightsaber('jedi')"
+                  id="saber-btn"
+                  class="saber-btn"
+                ></button>
+              </div>
+              <div class="saber-section-2"></div>
+              <div class="saber-section-3">
+                <div class="golden-detail"></div>
+              </div>
+            </div>
+          </div>
+          <h3>Jedi</h3>
+        </div>
+        <div class="container">
+          <h2>Elige tu lado de la fuerza</h2>
+        </div>
+        <div class="container">
+          <div class="lightsaber-container">
+            <div id="light-sith" class="light sith close-lightsaber"></div>
+            <div class="saber">
+              <div class="saber-section-1"></div>
+              <div class="saber-btn-container">
+                <button
+                  onclick="openLightsaber('sith')"
+                  id="saber-btn-sith"
+                  class="saber-btn"
+                ></button>
+              </div>
+              <div class="saber-section-2"></div>
+              <div class="saber-section-3">
+                <div class="golden-detail"></div>
+              </div>
+            </div>
+          </div>
+          <h3>Sith</h3>
+        </div>
+      </section>
+      <section class="footer">
+        <p>
+          Desarrollado en vivo en el canal de
+          <a href="">Programación en español</a>
+        </p>
+      </section>
+    </main>
+    <script src="assets/index.js"></script>
+  </body>
+</html>
